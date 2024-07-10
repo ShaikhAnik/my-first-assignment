@@ -5,7 +5,7 @@
 }
 
 *{
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
 }
 
@@ -113,27 +113,24 @@
 .why-section-contain{
     width: 946px;
     margin-top: 154px;
+
 }
 
-.why-section{   
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 .info{
     display: flex;
     justify-content: space-between;
     margin-top: 96px;
-    
+
 }
 
 .first-info, .sec-info{
    max-width: 477px; 
+ 
 }
 .info-image, .info_sec .info-image {
     width: 260px;  
-
 }
 
 .info_sec{
@@ -149,11 +146,6 @@
 }
 
 /* inspiration section style */
-.inspiration-section{
-    display: flex;
-    justify-content: center;
-}
-
 .inspirational-content{
     width: 1071px;
 }
@@ -167,4 +159,67 @@
 .video-container .video{
     width: 1010px;
     height: 614px;  
+}
+
+
+/* target section style */
+.target-contains{
+    width: 1071px;
+    
+}
+
+.card{
+   
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.card-contains{
+
+    width: 284px;
+    padding: 40px;
+}
+.card-contains-html-bg{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05); 
+}
+.card-contains-css-bg{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.card-contains-js-bg{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+
+}
+
+.card-contains img{
+    margin-bottom: 24px;
+}
+
+.card-contains h4{
+    margin-bottom: 8px;
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.card-contains .card-title{
+    color: rgb(13, 19, 33);
+     font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+
+.card-contains p a {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
 }
