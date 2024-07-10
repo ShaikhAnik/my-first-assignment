@@ -33,6 +33,40 @@
 
 }
 
+.info-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-bottom: 16px;
+
+}
+.info-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 32px;
+
+}
+
+.info-button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+    cursor: pointer;
+}
+
 /* banner styles */
 
 .banner_container{
@@ -72,4 +106,44 @@
     cursor: pointer;
     border: none;
     margin-top: 32px;
+}
+
+/* why section style */
+
+.why-section-contain{
+    width: 889px;
+    margin-top: 154px;
+}
+
+.why-section{   
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 96px;
+    
+}
+
+.first-info, .sec-info{
+   max-width: 477px; 
+}
+.info-image, .info_sec .info-image {
+    width: 260px;  
+
+}
+
+.info_sec{
+    display: flex;
+    justify-content: space-between;
+    margin: 128px 0px;
+}
+
+.info_third{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 216px;
 }
