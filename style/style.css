@@ -294,6 +294,8 @@ input[type=text]{
     border: none;
     cursor: pointer;
 }
+
+/* footer style */
 .footer_content{
     width: 1071px;
     display: flex;
